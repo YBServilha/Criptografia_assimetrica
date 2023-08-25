@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(48, 122, 190);
+}
+h1{
+    font-size: 38px;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 80%;
+    height: calc(90vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    gap: 20px;
+    position: relative;
+}
+main .chaves{
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+main .chaves .titulo-chaves{
+    font-size: 20px;
+    display: inline-block;
+}
+#btnGerarChaves{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 40px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    outline: none;
+    border: 3px solid rgb(7, 46, 117);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    transition: .7s;
+}
+#btnGerarChaves:hover{
+    border: 3px solid whitesmoke;
+    background-color: rgb(7, 46, 117);
+    color: white;
+}
+#voltarHome{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(61, 128, 252);
+    padding: 10px;
+    border-radius: 5px;
+    transition: .7s;
+}
+#voltarHome:hover{
+    background-color: white;
+    border: rgb(61, 128, 252);
+    color: black;
+}

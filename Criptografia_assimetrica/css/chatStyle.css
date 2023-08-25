@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(48, 122, 190);
+}
+h1{
+    font-size: 38px;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 80%;
+    min-height: calc(90vh - 70px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    gap: 20px;
+    position: relative;
+    margin: 20px 0;
+    padding-bottom: 50px;
+}
+main .mensagens{
+    width: 50%;
+    height: auto;
+    min-height: 400px;
+    border: 3px solid red;
+    color: white;
+    padding: 50px 20px 20px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+main form{
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+main form input{
+    font-size: 20px;
+    padding: 10px;
+}
+#cod-nome{
+    width: 30%;
+}
+#mensagem-cript{
+    width: 55%;
+}
+main form input:nth-child(3){
+    cursor: pointer;
+}
+
+main .descriptografar{
+    margin-top: 10px;
+    width: 50%;
+}
+main .descriptografar form#form-descriptografar{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+}
+#chave-privada{
+    width: 40%;
+}
+
+#btn-descript{
+    width: 30%;
+    cursor: pointer;
+}
+#voltarHome{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(61, 128, 252);
+    padding: 10px;
+    border-radius: 5px;
+    transition: .7s;
+}
+#voltarHome:hover{
+    background-color: white;
+    border: rgb(61, 128, 252);
+    color: black;
+}
